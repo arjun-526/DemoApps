@@ -11,6 +11,11 @@ public class DemoController {
 
     @GetMapping("/welcome/{name}")
     public String welcome(@PathVariable("name") String name) {
-        return name + ", Welcome to Demo Controller";
+        return name + " , Come to here";
+    }
+
+    @GetMapping("/welcome")
+    public String hello() {
+        return "Welcome to Demo App";
     }
 }
