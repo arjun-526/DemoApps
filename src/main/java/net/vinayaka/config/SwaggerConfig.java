@@ -33,7 +33,7 @@ public class SwaggerConfig{
 	 
 	 private ApiInfo apiInfo() {
 		 return new ApiInfoBuilder().
-				 title("Demo Profile Api").
+				 title("Vinayaka Profile Api").
 				 description("This API can be used to get profile level information for an demo ").version("V1.0").build();
 	 }
 
